@@ -9,6 +9,11 @@ class MyClass {
   }
 }
 
+//Creating a function
+int sumUp(int a, int b, int c) {
+    return a + b + c;
+}
+
 void main() {
   // String interpolation
   print('${10 + 5}');
@@ -25,4 +30,8 @@ void main() {
   myClass._aProperty = 10;
   //Print new value for _aProperty
   print(myClass._aProperty);
+
+
+    //Using function
+  print(sumUp(5,10,3));
 }
